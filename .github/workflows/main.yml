@@ -2,7 +2,7 @@ name: Daily GBP to CNY Rate Push
 
 on:
   schedule:
-    - cron: '45 11 * * *'
+    - cron: '2 0 * * *'
   workflow_dispatch:     # 允许手动触发
 
 jobs:
